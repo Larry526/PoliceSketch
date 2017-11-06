@@ -9,6 +9,9 @@
 #import "LHLViewController.h"
 
 @interface LHLViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *eyesImage;
+@property (weak, nonatomic) IBOutlet UIImageView *nosesImage;
+@property (weak, nonatomic) IBOutlet UIImageView *mouthImage;
 
 @end
 
@@ -16,13 +19,43 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+
+
+}
+
+- (IBAction)eyeRightBtnPressed:(id)sender {
+    
+    
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)eyeLeftBtnPressed:(id)sender {
+    
+    
+}
+
+
+- (IBAction)noseRightBtnPressed:(id)sender {
+    
+    
+}
+
+
+- (IBAction)noseLeftBtnPressed:(id)sender {
+    
+    
+}
+
+
+- (IBAction)mouthRightBtnPressed:(id)sender {
+    
+    
+}
+
+- (IBAction)mouthLeftBtnPressed:(id)sender {
+    
+    
 }
 
 

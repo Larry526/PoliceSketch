@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05E2348A1FB0BE13006FDE3D /* ImageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E234891FB0BE13006FDE3D /* ImageHandler.m */; };
 		221F8A851F8C1C14009790AF /* LHLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F8A841F8C1C14009790AF /* LHLAppDelegate.m */; };
 		221F8A881F8C1C14009790AF /* LHLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F8A871F8C1C14009790AF /* LHLViewController.m */; };
 		221F8A8B1F8C1C14009790AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221F8A891F8C1C14009790AF /* Main.storyboard */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05E234881FB0BE13006FDE3D /* ImageHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageHandler.h; sourceTree = "<group>"; };
+		05E234891FB0BE13006FDE3D /* ImageHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageHandler.m; sourceTree = "<group>"; };
 		221F8A801F8C1C14009790AF /* PoliceSketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoliceSketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		221F8A831F8C1C14009790AF /* LHLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHLAppDelegate.h; sourceTree = "<group>"; };
 		221F8A841F8C1C14009790AF /* LHLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHLAppDelegate.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				221F8A841F8C1C14009790AF /* LHLAppDelegate.m */,
 				221F8A861F8C1C14009790AF /* LHLViewController.h */,
 				221F8A871F8C1C14009790AF /* LHLViewController.m */,
+				05E234881FB0BE13006FDE3D /* ImageHandler.h */,
+				05E234891FB0BE13006FDE3D /* ImageHandler.m */,
 				221F8A891F8C1C14009790AF /* Main.storyboard */,
 				221F8A8C1F8C1C14009790AF /* Assets.xcassets */,
 				221F8A8E1F8C1C14009790AF /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 			files = (
 				221F8A881F8C1C14009790AF /* LHLViewController.m in Sources */,
 				221F8A931F8C1C14009790AF /* main.m in Sources */,
+				05E2348A1FB0BE13006FDE3D /* ImageHandler.m in Sources */,
 				221F8A851F8C1C14009790AF /* LHLAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

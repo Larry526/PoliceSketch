@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "ImageData.h"
 @interface LHLViewController : UIViewController
 
 

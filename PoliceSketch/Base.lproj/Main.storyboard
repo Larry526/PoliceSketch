@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aFc-k7-zB4" userLabel="eyes_image">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eyes_1" translatesAutoresizingMaskIntoConstraints="NO" id="aFc-k7-zB4" userLabel="eyes_image">
                                 <rect key="frame" x="77" y="50" width="220" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -45,11 +45,11 @@
                                     <action selector="eyeLeftBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wCo-Wt-Ecz"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZOE-zh-zFC" userLabel="nose_image">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nose_1" translatesAutoresizingMaskIntoConstraints="NO" id="ZOE-zh-zFC" userLabel="nose_image">
                                 <rect key="frame" x="77" y="200" width="220" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D3c-DT-ww0" userLabel="mouth_image">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mouth_1" translatesAutoresizingMaskIntoConstraints="NO" id="D3c-DT-ww0" userLabel="mouth_image">
                                 <rect key="frame" x="77" y="350" width="220" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -94,5 +94,8 @@
     <resources>
         <image name="arrow_left" width="50" height="100"/>
         <image name="arrow_right" width="50" height="100"/>
+        <image name="eyes_1" width="220" height="100"/>
+        <image name="mouth_1" width="220" height="100"/>
+        <image name="nose_1" width="220" height="100"/>
     </resources>
 </document>
